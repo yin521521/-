@@ -190,27 +190,28 @@ html {
   flex-direction: column;
 }
 
-header {
-  height: 1.06667rem;
-}
-
-header ul {
-  display: flex;
-  align-items: center;
-  height: 1.06667rem;
-}
-
-header ul li {
+section {
   flex: 1;
-  height: 1.06667rem;
-  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-header ul li span {
-  font-size: 0.48rem;
-  height: 1.06667rem;
+section .div {
+  width: 90%;
+  height: 1.33333rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  background: pink;
+  align-items: center;
 }
 
-header ul li span.active {
-  border-bottom: thin solid red;
+section .div span {
+  font-size: 0.53333rem;
 }
